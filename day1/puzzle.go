@@ -1,4 +1,4 @@
-package main
+package day1
 
 import (
 	"bufio"
@@ -9,8 +9,8 @@ import (
 	"strconv"
 )
 
-func main() {
-	file, err := os.Open("input.txt")
+func Puzzle() {
+	file, err := os.Open("./day1/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -29,6 +29,6 @@ func main() {
 		}
 	}
 	sort.SliceStable(sumCalories, func(i, j int) bool { return sumCalories[i] > sumCalories[j] })
-	fmt.Println("Puzzle1. Самое больше кол-во калорий, которые несёт 1 эльф =", sumCalories[0])
-	fmt.Println("Puzzle2. 3 лучших эльфа несут =", sumCalories[0]+sumCalories[1]+sumCalories[2], "калорий")
+	fmt.Println("Day1. Puzzle1. Самое больше кол-во калорий, которые несёт 1 эльф =", sumCalories[0])
+	fmt.Println("Day1. Puzzle2. 3 лучших эльфа несут =", sumCalories[0]+sumCalories[1]+sumCalories[2], "калорий\n")
 }
