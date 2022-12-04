@@ -49,5 +49,5 @@ func Puzzle2() {
 			}
 		}
 	}
-	fmt.Println("Day2. Puzzle2. В камень ножницы бумага ты выиграешь по стратегии:", points)
+	fmt.Println("Day2. Puzzle2. В камень ножницы бумага ты выиграешь по стратегии:", points, "\n")
 }
