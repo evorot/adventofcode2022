@@ -4,6 +4,7 @@ import (
 	"aoc2022/day1"
 	"aoc2022/day2"
 	"aoc2022/day3"
+	"aoc2022/day4"
 )
 
 func main() {
@@ -12,4 +13,6 @@ func main() {
 	day2.Puzzle2()
 	day3.Puzzle1()
 	day3.Puzzle2()
+	day4.Puzzle1()
+	day4.Puzzle2()
 }
