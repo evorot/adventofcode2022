@@ -17,4 +17,5 @@ func main() {
 	day4.Puzzle1()
 	day4.Puzzle2()
 	day5.Puzzle1()
+	day5.Puzzle2()
 }
