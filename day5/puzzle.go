@@ -113,7 +113,7 @@ func Puzzle2() {
 	for _, stack := range stacks {
 		result = append(result, strings.Trim(stack[len(stack)-1], "[]"))
 	}
-	fmt.Println("Day5. Puzzle2. Answer:", strings.Join(result, ""))
+	fmt.Println("Day5. Puzzle2. Answer:", strings.Join(result, ""), "\n")
 }
 
 func Tusk(stacks [][]string, quantity, from, to int) [][]string {
